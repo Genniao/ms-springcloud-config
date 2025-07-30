@@ -49,7 +49,7 @@ mybatis:
 spring:
   profiles: prod
   application:
-    name: ms-product  # 指定应用名称，这在以后的服务与服务之间相互调用都是根据这个name进行调用
+    name: ms-product-bus  # 指定应用名称，这在以后的服务与服务之间相互调用都是根据这个name进行调用
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver             # mysql驱动包
