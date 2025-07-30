@@ -72,3 +72,7 @@ eureka:
     # 微服务注册中心的服务地址
     service-url:
       defaultZone: http://eureka6001.com:6001/eureka
+
+#自定义
+student:
+  name: niezitong
